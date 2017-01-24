@@ -2,10 +2,16 @@
     color: gray;
 }
 
+.sign-up-container {
+    margin: 0 25px;
+}
 .sign-up-container form {
     border: 1px solid deepskyblue;
     padding: 0px 15px;
     background: no-repeat #fff;
+    float: none;
+    margin: 0 auto;
+    margin-top: 20px;
 }
 
 .btn {
