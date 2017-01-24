@@ -19,20 +19,20 @@
                         </div>
                         <hr>
                         <div class="form-group">
-                            <label for="inputName" class="col-sm-2 control-label">Name</label>
-                            <div class="col-sm-10">
+                            <label for="inputName" class="col-sm-4 control-label">Name <span>First name only</span></label>
+                            <div class="col-sm-8">
                                 <input type="name" class="form-control" id="inputName" placeholder="">
                             </div>
                         </div>
                         <div class="form-group">
-                            <label for="inputEmail3" class="col-sm-2 control-label">Birthday</label>
-                            <div class="col-sm-10">
+                            <label for="inputEmail3" class="col-sm-4 control-label">Birthday <span>mm-dd-yyyy</span></label>
+                            <div class="col-sm-8">
                                 <input type="birthday" class="form-control" id="inputBirthday" placeholder="">
                             </div>
                         </div>
 
                         <div class="form-group">
-                            <div class="col-sm-offset-2 col-sm-10">
+                            <div class="col-sm-offset-4 col-sm-8">
                                 <button type="submit" class="btn btn-default">Submit</button>
                                 <button type="submit" class="btn btn-default">Export to XML</button>
                             </div>
