@@ -66,3 +66,13 @@ body {
     background-image: linear-gradient(to bottom, #000000, #292929);
     text-decoration: none;
 }
+
+/* Mobile view */
+@media only screen
+and (max-device-width: 1024px)
+and (orientation: portrait)
+and (-webkit-min-device-pixel-ratio: 1) {
+    .btn {
+        width: 100%;
+    }
+}
