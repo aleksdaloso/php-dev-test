@@ -1,5 +1,3 @@
-<!DOCTYPE html>
-
 <?php
 include('./class/App.php');
 $app = new App();
@@ -27,11 +25,11 @@ if(isset($_POST['signup'])){
 }
 
 if(isset($_POST['export'])) {
-    $export = $app->exportData();
-     var_dump($export);
+    $app->exportData();
 }
 
 ?>
+<!DOCTYPE html>
 <html>
     <head>
         <title>Signup</title>

@@ -88,7 +88,7 @@ class App
         header('Content-Disposition: attachment; filename="data_export.xml"');
 
         echo file_get_contents($this->data_folder.'/'. XML_FILE_NAME);
-
+        exit();
     }
 
     /**
