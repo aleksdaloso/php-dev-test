@@ -45,7 +45,7 @@ if(isset($_POST['export'])) {
         <div class="container ">
             <div class="row">
                 <div class="sign-up-container">
-                    <form class="form-horizontal col-md-5" action="" method="post">
+                    <form class="form-horizontal col-md-5" action="/" method="post">
                         <div class="form-heading">
                             <h2>Sign-Up</h2>
                             <span>Complete the following fields</span>
