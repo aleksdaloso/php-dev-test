@@ -53,7 +53,7 @@ class App
         $xml->formatOutput = true;
         $xml_community = $xml->createElement("community");
 
-        $handle = fopen($this->text_file, "r") or die('No data found. Insert data first! Go <a href="'.$_SERVER["SERVER_NAME"].'">back.</a>');
+        $handle = fopen($this->text_file, "r") or die('No data found. Insert data first! Go <a href="/">back.</a>');
         if ($handle) {
             while (($line = fgets($handle)) !== false) {
                 $row = explode('|', $line);
